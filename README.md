@@ -40,3 +40,7 @@ AIFFEL_quest_rs
         └── README.md
 ```
 
+* MainQuest : 메인퀘스트
+* Exploration : 피어리뷰 코드 설명
+* GoingDeeper : 미정
+
