@@ -42,7 +42,7 @@
     - 파이썬 스타일 가이드 (PEP8) 를 준수하였는지 확인
     - 코드 중복을 최소화하고 범용적으로 사용할 수 있도록 함수화/모듈화했는지 확인
         - 중요! 잘 작성되었다고 생각되는 부분을 캡쳐해 근거로 첨부
-        - ![image](https://github.com/user-attachments/assets/f62b3ed1-b17c-45d5-91eb-b8a0a6f99c81)
+        - ![image](https://github.com/user-attachments/assets/0936655c-2961-4be5-b57f-4fec7c8eea49)
         - 유사한 단어를 찾을 때 index, target, 임베딩 가중치 값을 받아야 되는데 이를 함수로 구현하여 한 번에 불러와 보기 좋게 만들었다.
 
 # 회고(참고 링크 및 코드 개선)
