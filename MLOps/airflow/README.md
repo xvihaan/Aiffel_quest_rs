@@ -71,19 +71,23 @@ hello_task >> world_task
 
 ---
 
-•	load_and_preprocess_data:
-	•	데이터를 로드하고 전처리하는 작업입니다.
-    •	SSL 인증 문제도 해결하여 안정적인 데이터 로드가 가능합니다.
-•	train_model:
-	•	모델을 생성하고 학습합니다.
-	•	W&B(WandB)를 사용하여 로그 및 메트릭을 기록합니다.
-•	hyperparameter_sweep:
-	•	W&B 스윕 기능을 사용하여 하이퍼파라미터 튜닝을 수행합니다.
-	•	wandb.agent를 사용해 비동기 문제를 해결하고, 모델 학습을 반복합니다.
-•	Airflow Task 정의:
-	•	preprocessing_task: 데이터 전처리 작업
-	•	training_task: 모델 학습 작업
-	•	hyperparameter_tuning_task: 하이퍼파라미터 스윕 작업
-•	의존성 설정:
-	•	데이터 전처리 → 모델 학습 → 하이퍼파라미터 튜닝 순서로 작업이 실행됩니다.
+### load_and_preprocess_data:
+1. 데이터를 로드하고 전처리하는 작업입니다.
+2. SSL 인증 문제도 해결하여 안정적인 데이터 로드가 가능합니다.
+
+### train_model:
+1. 모델을 생성하고 학습합니다.
+2. W&B(WandB)를 사용하여 로그 및 메트릭을 기록합니다.
+
+### hyperparameter_sweep:
+1. W&B 스윕 기능을 사용하여 하이퍼파라미터 튜닝을 수행합니다.
+2. wandb.agent를 사용해 비동기 문제를 해결하고, 모델 학습을 반복합니다.
+
+### Airflow Task 정의:
+1. preprocessing_task: 데이터 전처리 작업
+2. training_task: 모델 학습 작업
+3. hyperparameter_tuning_task: 하이퍼파라미터 스윕 작업
+
+### 의존성 설정:
+- 데이터 전처리 → 모델 학습 → 하이퍼파라미터 튜닝 순서로 작업이 실행됩니다.
 
