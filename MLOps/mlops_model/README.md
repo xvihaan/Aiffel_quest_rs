@@ -8,6 +8,8 @@ mlops_model/
 ├── main.py
 ├── train_model.py
 │
+├── mnist_model.h5
+│
 ├── templates/
 │   └── index.html
 │
