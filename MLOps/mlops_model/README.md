@@ -3,7 +3,7 @@
 ### 구조
 
 ```javascript
-your_project_directory/
+mlops_model/
 │
 ├── main.py
 ├── train_model.py
