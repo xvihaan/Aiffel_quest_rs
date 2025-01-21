@@ -51,4 +51,5 @@ AIFFEL_quest_rs
 * Exploration : 피어리뷰 코드 설명
 * GoingDeeper : 심층공부
 * MLOps : ML + DevOps
+* Aiffelthon: 아이펠톤 
 
