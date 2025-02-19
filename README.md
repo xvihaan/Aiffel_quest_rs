@@ -50,7 +50,7 @@ AIFFEL_quest_rs
     ├── pdf
     .
     .
-    ├── base
+    └── base
         ├── demo.py
         └── demo2.py
 
